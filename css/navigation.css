@@ -1,0 +1,28 @@
+/* Navbar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 10%;
+    color: white;
+    background-color: rgba(0,0,0,0.35);
+    border-bottom: 5px solid rgba(0,0,0,0.5);
+}
+
+nav h1 {
+    font-size: 25px;
+}
+
+/* ------------------ */
+/* Nav Unordered List */
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+nav ul li {
+    margin: 0px 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
