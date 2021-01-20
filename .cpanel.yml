@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/stilaugamer/public_html/test/
+    - /bin/cp -a * $DEPLOYPATH
